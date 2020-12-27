@@ -1,4 +1,4 @@
-package chat.rocket.reactnative;
+package chat.rovenma.rocket;
 
 import android.database.Cursor;
 import android.util.Base64;

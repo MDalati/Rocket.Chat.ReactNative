@@ -1,4 +1,4 @@
-package chat.rocket.reactnative;
+package chat.rovenma.rocket;
 
 import android.content.Context;
 import android.os.Bundle;

@@ -2990,6 +2990,10 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 
 
+Open Source Software Licensed Under the BSD 3-Clause License: 
+----------------------------------------------------------------------------------------
+1. pybind11 v2.5.0
+Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch>, All rights reserved.
 
 Terms of the BSD 3-Clause License:
 --------------------------------------------------------------------
@@ -3849,7 +3853,7 @@ SOFTWARE.
 
 ## SDWebImage
 
-Copyright (c) 2009-2018 Olivier Poitrey rs@dailymotion.com
+Copyright (c) 2009-2020 Olivier Poitrey rs@dailymotion.com
  
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

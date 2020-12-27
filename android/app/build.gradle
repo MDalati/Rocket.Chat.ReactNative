@@ -150,11 +150,15 @@ android {
             manifestPlaceholders = [BugsnagAPIKey: BugsnagAPIKey as String]
             missingDimensionStrategy "RNNotifications.reactNativeVersion", "reactNative60" // See note below!
         }
-        resValue "string", "rn_config_reader_custom_package", "chat.rocket.reactnative"
+        resValue "string", "rn_config_reader_custom_package", "chat.rovenma.rocket"
     }
 
     signingConfigs {
         release {
+            storeFile file('/Users/Mohammad/Documents/MyApps/Rocket.Chat signing/android_store_key')
+            storePassword 'FXolYbENtuzR4rn'
+            keyAlias = 'CvOw8RDG9DJup6O'
+            keyPassword 'nra9a3ezkRsf'
             if (project.hasProperty('KEYSTORE')) {
                 storeFile file(KEYSTORE)
                 storePassword KEYSTORE_PASSWORD
