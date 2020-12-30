@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "icon.png",
+      "filename" : "bare_logo.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icon@2x.png",
+      "filename" : "bare_logo-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icon@3x.png",
+      "filename" : "bare_logo-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
