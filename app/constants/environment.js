@@ -1,4 +1,4 @@
-import RNConfigReader from 'react-native-config-reader';
+// import RNConfigReader from 'react-native-config-reader';
 
 export const isFDroidBuild = false;
 
