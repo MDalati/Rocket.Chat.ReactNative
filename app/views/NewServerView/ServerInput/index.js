@@ -53,6 +53,7 @@ const ServerInput = ({
 				clearButtonMode='while-editing'
 				keyboardType='url'
 				textContentType='URL'
+				editable={false}
 				theme={theme}
 				onFocus={() => setFocused(true)}
 				onBlur={() => setFocused(false)}

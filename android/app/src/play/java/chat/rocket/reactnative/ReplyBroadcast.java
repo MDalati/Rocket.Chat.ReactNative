@@ -1,4 +1,4 @@
-package chat.rovenma.rocket;
+package chat.rocket.reactnative;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -8,7 +8,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 

@@ -107,7 +107,7 @@ commands:
             echo -e "VERSIONCODE=$CIRCLE_BUILD_NUM" >> ./gradle.properties
 
             if [[ $CIRCLE_JOB == "android-build-official" ]]; then
-              echo -e "APPLICATION_ID=chat.rocket.android" >> ./gradle.properties
+              echo -e "APPLICATION_ID=chat.rovenma.rocket" >> ./gradle.properties
               echo -e "BugsnagAPIKey=$BUGSNAG_KEY_OFFICIAL" >> ./gradle.properties
               echo $CHAT_ROCKET_ANDROID_STORE_FILE_BASE64_JKS | base64 --decode > ./app/$KEYSTORE_OFFICIAL
               echo -e "KEYSTORE=$KEYSTORE_OFFICIAL" >> ./gradle.properties

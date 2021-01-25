@@ -12,6 +12,7 @@
 		0E6A7FC7493A0BCBCBACF877 /* libPods-NotificationService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81411D280138EF5344596C2F /* libPods-NotificationService.a */; };
 		118871562598D30D00A6D3A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 118871552598D30D00A6D3A7 /* GoogleService-Info.plist */; };
 		118871572598D30D00A6D3A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 118871552598D30D00A6D3A7 /* GoogleService-Info.plist */; };
+		118871E02598E68C00A6D3A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 118871552598D30D00A6D3A7 /* GoogleService-Info.plist */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -782,6 +783,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118871E02598E68C00A6D3A7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

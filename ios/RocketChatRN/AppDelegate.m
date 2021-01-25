@@ -21,7 +21,7 @@
 #import <UMReactNativeAdapter/UMNativeModulesProxy.h>
 #import <UMReactNativeAdapter/UMModuleRegistryAdapter.h>
 #import <MMKV/MMKV.h>
-
+#import "RNNotificationUtils.h"
 #if DEBUG
 #import <FlipperKit/FlipperClient.h>
 #import <FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>
@@ -113,6 +113,8 @@ static void InitializeFlipper(UIApplication *application) {
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 {
+  NSString *token = [RNNotificationUtils deviceTokenToString:deviceToken];
+  NSLog(@"The generated device token string is : %@",token);
   [RNNotifications didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
 }
 

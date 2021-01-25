@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>AppGroup</key>
-	<string>group.ios.chat.rocket</string>
+	<string>group.ios.rovenma.chat</string>
 	<key>BugsnagAPIKey</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>RovenmaChat</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

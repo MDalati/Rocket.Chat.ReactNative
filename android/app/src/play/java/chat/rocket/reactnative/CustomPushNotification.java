@@ -1,4 +1,4 @@
-package chat.rovenma.rocket;
+package chat.rocket.reactnative;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -34,6 +34,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
+
+import chat.rovenma.rocket.R;
 
 import static com.wix.reactnativenotifications.Defs.NOTIFICATION_RECEIVED_EVENT_NAME;
 

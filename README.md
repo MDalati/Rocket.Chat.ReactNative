@@ -11,7 +11,7 @@
 
 ## Download
 
-<a href="https://play.google.com/store/apps/details?id=chat.rocket.android">
+<a href="https://play.google.com/store/apps/details?id=chat.rovenma.rocket">
   <img alt="Download on Google Play" src="https://play.google.com/intl/en_us/badges/images/badge_new.png" height=43>
 </a>
 <a href="https://apps.apple.com/us/app/rocket-chat/id1148741252">
